@@ -1,1 +1,13 @@
-{"pipeline": {"name": "Standard Build Pipeline", "stages": ["Fetch Code", "Environment Setup", "Security Scan", "Unit Tests", "Build Artifact", "Push to Registry"]}}
+{
+  "pipeline": {
+    "name": "Standard Build Pipeline", 
+    "stages": [
+      "Fetch Code", 
+      "Environment Setup", 
+      "Security Scan", 
+      "Unit Tests", 
+      "Build Artifact", 
+      "Push to Registry"
+    ]
+  }
+}
