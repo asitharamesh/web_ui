@@ -1,17 +1,1 @@
-{
-  "pipeline": {
-    "name": "Standard Build Pipeline",
-    "metadata": {
-      "version": "1.0",
-      "owner": "Asitha"
-    },
-    "stages": [
-      "Fetch Code",
-      "Environment Setup",
-      "Security Scan",
-      "Unit Tests",
-      "Build Artifact",
-      "Push to Registry"
-    ]
-  }
-}
+{"pipeline": {"name": "UI Pipeline", "stages": ["CSS Lint", "React Build", "UI Smoke Test"]}}
