@@ -1,0 +1,1 @@
+{"pipeline": {"name": "Frontend Pipeline", "stages": ["Linting", "CSS Build", "Deploy"]}}
