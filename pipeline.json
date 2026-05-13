@@ -1,13 +1,15 @@
 {
   "pipeline": {
-    "name": "Standard Build Pipeline", 
+    "agent": "node-worker",
     "stages": [
-      "Fetch Code", 
-      "Environment Setup", 
-      "Security Scan", 
-      "Unit Tests", 
-      "Build Artifact", 
-      "Push to Registry"
+      {
+        "name": "Install Dependencies",
+        "script": "npm install" 
+      },
+      {
+        "name": "Test Application",
+        "script": "this-command-will-fail" 
+      }
     ]
   }
 }
