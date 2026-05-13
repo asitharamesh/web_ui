@@ -7,10 +7,13 @@
         "script": "npm install" 
       },
       {
+        "name": "Security Vulnerability Scan",
+        "script": "npm audit" 
+      },
+      {
         "name": "Test Application",
-        "script": "this-command-will-fail" 
+        "script": "npm test" 
       }
     ]
   }
 }
-
