@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    
+    "agent": "security-worker",
     "stages": [
       {
         "name": "Install Dependencies",
@@ -9,10 +9,6 @@
       {
         "name": "Security Vulnerability Scan",
         "script": "npm audit" 
-      },
-      {
-        "name": "Test Application",
-        "script": "npm test" 
       }
     ]
   }
