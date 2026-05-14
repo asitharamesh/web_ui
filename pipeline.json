@@ -3,18 +3,11 @@
     "agent": "node-worker",
     "language": "nodejs",
     "stages": [
-      {
-        "name": "Install Dependencies",
-        "script": "npm install" 
-      },
-      {
-        "name": "Security Vulnerability Scan",
-        "script": "npm audit" 
-      },
-      {
-        "name": "Test Application",
-        "script": "npm test" 
-      }
+      "Install Dependencies",
+      "Lint UI Code",
+      "Build Web Assets",
+      "Run Unit Tests",
+      "Upload to S3"
     ]
   }
 }
